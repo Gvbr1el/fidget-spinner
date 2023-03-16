@@ -1,0 +1,16 @@
+.img{
+    width: 200px;
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    animation: spinner 0.5s linear 0s infinite;
+}
+
+@keyframes spinner{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
